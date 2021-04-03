@@ -12,14 +12,14 @@
   margin: 0 auto;
   padding: 0 15px;
 }
-h2 {
+.title {
   font-size: 36px;
   color: #212121;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
-h3 {
+.subtitle {
   font-size: 20px;
   color: #333333;
   margin-bottom: 16px;
@@ -35,4 +35,11 @@ p {
 .text {
   color: #86878b;
   text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 -15px;
+  flex-wrap: wrap;
 }

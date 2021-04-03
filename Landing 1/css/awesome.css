@@ -15,19 +15,12 @@
 .awesome__title {
   margin-bottom: 57px;
 }
-.awesome-card__img {
+.awesome-card__img-border {
   border: 1px solid #d98943;
   border-radius: 50%;
   width: 70px;
   height: 70px;
   margin: 0px auto 30px;
-}
-.awesome__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 -15px;
-  flex-wrap: wrap;
 }
 .awesome-card {
   width: 350px;
@@ -35,7 +28,7 @@
   margin-right: 15px;
   margin-top: 67px;
 }
-img {
+.awesome-card__img {
   margin: 20px auto;
   display: block;
 }

@@ -16,19 +16,11 @@
 .price__title {
   margin-bottom: 70px;
 }
-.price__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 -15px;
-  flex-wrap: wrap;
-}
 .price-card {
   width: 340px;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 63px;
-  text-align: center;
 }
 a {
   text-decoration: none;
@@ -36,7 +28,10 @@ a {
   height: 100%;
   color: #86878b;
 }
-.price__list-item {
+.link {
+  color: #ffffff;
+}
+.price-card__list-item {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -45,29 +40,31 @@ a {
   margin-top: 2px;
   margin-bottom: 2px;
   background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
 }
 .category {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
   height: 50px;
   background-color: #333333;
+  line-height: 50px;
 }
 .cost {
   font-size: 35px;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
-  color: #ffffff;
   height: 100px;
   background-color: #333333;
+  line-height: 100px;
 }
 .free {
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   height: 50px;
   background-color: #333333;
+  line-height: 50px;
 }
-
 a:hover {
   font-weight: 800;
   background-color: #d98943;
