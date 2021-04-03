@@ -19,6 +19,15 @@
   text-align: center;
   text-transform: uppercase;
 }
+.title::after {
+  content: '';
+  position: relative;
+  width: 64px;
+  height: 2px;
+  background-color: #d98943;
+  margin: 0 auto;
+  display: block;
+}
 .subtitle {
   font-size: 20px;
   color: #333333;

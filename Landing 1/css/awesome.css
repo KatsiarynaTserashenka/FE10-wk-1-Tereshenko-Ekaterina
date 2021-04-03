@@ -3,14 +3,7 @@
   width: 100%;
 }
 .awesome__title::after {
-  content: '';
-  position: relative;
   top: 25px;
-  width: 64px;
-  height: 2px;
-  background-color: #d98943;
-  margin: 0 auto;
-  display: block;
 }
 .awesome__title {
   margin-bottom: 57px;
