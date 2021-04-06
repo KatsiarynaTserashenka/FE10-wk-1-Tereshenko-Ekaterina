@@ -1,5 +1,7 @@
 @import url('../css/awesome.css');
 @import url('../css/price.css');
+@import url('../css/customers.css');
+@import url('../css/axure.css');
 
 * {
   list-style: none;
@@ -18,6 +20,7 @@
   font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
 }
 .title::after {
   content: '';
