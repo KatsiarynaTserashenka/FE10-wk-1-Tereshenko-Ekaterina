@@ -9,11 +9,13 @@
 .price__title {
   margin-bottom: 70px;
 }
+.price__row {
+  margin: 63px -15px 0px -15px;
+}
 .price-card {
   width: 340px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 63px;
 }
 .price-card__list-item {
   font-size: 14px;

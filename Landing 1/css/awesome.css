@@ -9,6 +9,7 @@
   margin-bottom: 57px;
 }
 .awesome__row {
+  margin: 67px -15px 0px -15px;
 }
 .awesome-card__img-border {
   border: 1px solid #d98943;
@@ -21,7 +22,6 @@
   width: 350px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 67px;
 }
 .awesome-card__img {
   margin: 20px auto;
