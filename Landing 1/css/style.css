@@ -2,6 +2,7 @@
 @import url('../css/price.css');
 @import url('../css/customers.css');
 @import url('../css/axure.css');
+@import url('../css/header.css');
 
 * {
   list-style: none;
@@ -53,6 +54,6 @@ p {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
