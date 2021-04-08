@@ -20,7 +20,7 @@
 .customers-card__text {
   background-color: #e2e2e2;
   border-radius: 7px;
-  padding: 9px 22px 6px 23px;
+  padding: 15px;
   margin-bottom: 22px;
   position: relative;
 }
@@ -46,9 +46,12 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  overflow: hidden;
 }
 .customers-card__customer-description {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .customers-card__customer-profession {
   font-size: 14px;
