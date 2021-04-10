@@ -23,7 +23,22 @@
   margin-left: 15px;
   margin-right: 15px;
 }
-.awesome-card__img {
+/*.awesome-card__img {
   margin: 20px auto;
   display: block;
+}*/
+.fa-lightbulb {
+  font-size: 30px;
+  color: #d98943;
+  margin: 20px 24px;
+}
+.fa-keyboard {
+  font-size: 30px;
+  color: #d98943;
+  margin: 20px 19px;
+}
+.fa-bolt {
+  font-size: 33px;
+  color: #d98943;
+  margin: 19px 25px;
 }
