@@ -1,0 +1,30 @@
+.social {
+  padding: 15px 0px;
+  width: 100%;
+  background-color: #f8efef;
+}
+.social-subtitle {
+  text-align: left !important;
+}
+.social__content-item {
+  color: #86878b;
+  text-align: left !important;
+  width: 365px;
+}
+
+.social__list-items {
+  display: flex;
+  margin: 20px auto;
+}
+.social__list-item_link {
+  list-style: none;
+  font-size: 42px;
+  align-items: center;
+  color: #bfc1c4;
+  margin: 0px 30px;
+  display: inline-block;
+}
+.social__list-item_link:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
