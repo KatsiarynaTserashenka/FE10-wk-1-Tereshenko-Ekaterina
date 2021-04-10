@@ -52,3 +52,6 @@
   font-weight: 800;
   background-color: #d98943;
 }
+.price-card:hover {
+  transform: translateY(-15px);
+}

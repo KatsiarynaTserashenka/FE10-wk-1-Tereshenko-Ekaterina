@@ -44,3 +44,7 @@
   line-height: 42px;
   cursor: pointer;
 }
+.button:hover {
+  background-color: #ec7979;
+  transform: scale(1.2);
+}
