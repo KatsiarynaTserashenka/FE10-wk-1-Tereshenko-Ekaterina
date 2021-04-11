@@ -27,4 +27,5 @@
 .social__list-item_link:hover {
   cursor: pointer;
   transform: rotate(180deg);
+  transition-duration: 1.5s;
 }

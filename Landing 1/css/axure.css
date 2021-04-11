@@ -47,4 +47,5 @@
 .button:hover {
   background-color: #ec7979;
   transform: scale(1.2);
+  transition-duration: 0.5s;
 }

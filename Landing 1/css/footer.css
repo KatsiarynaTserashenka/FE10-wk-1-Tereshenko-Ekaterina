@@ -18,6 +18,7 @@
 .row__list-item_link:hover {
   cursor: pointer;
   transform: scale(2);
+  transition-duration: 1s;
 }
 .fa-facebook-f:hover {
   color: #3b5998;
