@@ -15,6 +15,7 @@
 .social__list-items {
   display: flex;
   margin: 20px auto;
+  flex-wrap: wrap;
 }
 .social__list-item_link {
   list-style: none;

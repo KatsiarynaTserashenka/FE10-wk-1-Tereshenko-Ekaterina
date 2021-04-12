@@ -25,10 +25,10 @@
   line-height: 20px;
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
+  flex-wrap: wrap;
 }
 .header-menu__item-link {
-  margin-right: 48px;
-  margin-top: 5px;
+  margin: 5px 24px 0px;
   text-align: center;
   text-transform: capitalize;
   display: block;
@@ -39,8 +39,5 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   padding: 0px 0px 5px 5px;
   margin-bottom: -6px;
-  margin-left: -6px;
-}
-.header-menu__items:last-child {
-  margin-right: 0px;
+  margin-left: 18px;
 }
