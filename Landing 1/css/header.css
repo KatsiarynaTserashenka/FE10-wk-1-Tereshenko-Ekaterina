@@ -27,7 +27,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 .header-menu__item-link {
-  margin-left: 48px;
+  margin-right: 48px;
   margin-top: 5px;
   text-align: center;
   text-transform: capitalize;
@@ -39,5 +39,8 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   padding: 0px 0px 5px 5px;
   margin-bottom: -6px;
-  margin-left: 42px;
+  margin-left: -6px;
+}
+.header-menu__items:last-child {
+  margin-right: 0px;
 }
