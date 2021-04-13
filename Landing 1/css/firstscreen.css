@@ -1,12 +1,12 @@
-.firstscrin {
+.firstscreen {
   padding: 110px 0px 100px 0px;
   width: 100%;
-  background: url('../img/bg/firstscrin-bg.png') no-repeat;
+  background: url('../img/bg/firstscreen-bg.png') no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
 }
-.firstscrin::after {
+.firstscreen::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -16,8 +16,13 @@
   top: 0;
   left: 0;
 }
-.firstscrin__card {
-  width: 540px;
+.firstscreen__row {
+  margin: 0px -15px;
+  align-items: flex-start;
+}
+.firstscreen__info,
+.firstscreen__form {
+  max-width: 540px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -30,47 +35,72 @@
   text-align: left;
   margin-bottom: 32px;
 }
-.firstscrin__title {
+.firstscreen__title {
   color: #ffffff !important;
   text-align: left !important;
   line-height: 42px;
   margin-bottom: 85px;
 }
-.firstscrin__title::after {
+.firstscreen__title::after {
   top: 45px;
   background-color: #ffffff !important;
   margin: 0 !important;
 }
-.firstscrin__text-content {
+.firstscreen__text-content {
   text-align: left !important;
   margin-bottom: 40px;
   width: 250px;
 }
-.firstscrin__button {
+.firstscreen__button {
   margin: 0;
 }
-.firstscrin__form {
+.firstscreen__form {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
-.firstscrin__form-content {
+.form-content {
   width: 370px;
-  height: 316px;
   background-color: #ffffff;
   margin: 0 auto;
   border-radius: 8px 8px 0px 0px;
+  padding: 18px 59px 61px;
 }
-.firstscrin__form-button {
-  width: 370px;
-  height: 54px;
+.form-content__subtitle {
+  font-size: 20px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.form-content__item {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin-top: 20px;
+}
+.firstscreen__form-button {
+  width: 100%;
   background-color: #ec7979;
-  margin: 0 auto;
   border-radius: 0px 0px 8px 8px;
-  cursor: pointer;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 54px;
   text-align: center;
   color: #ffffff;
   display: block;
+  border: none;
+}
+.firstscreen__form-button:hover {
+  cursor: pointer;
+  /*box-shadow: inset 0px 0px 20px 10px #e75757;*/
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 20px;
 }

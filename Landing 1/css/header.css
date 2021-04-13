@@ -20,8 +20,9 @@
   margin-left: 15px;
   margin-right: 15px;
 }
-.color-red {
+.color {
   color: #ec7979;
+  text-transform: uppercase;
 }
 .header-menu {
   margin-left: 15px;

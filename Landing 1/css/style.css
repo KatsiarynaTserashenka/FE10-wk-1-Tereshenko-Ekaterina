@@ -3,7 +3,7 @@
 @import url('../css/customers.css');
 @import url('../css/axure.css');
 @import url('../css/header.css');
-@import url('../css/firstscrin.css');
+@import url('../css/firstscreen.css');
 @import url('../css/footer.css');
 @import url('../css/social.css');
 
@@ -59,4 +59,9 @@ p {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #bdbdbd;
 }
