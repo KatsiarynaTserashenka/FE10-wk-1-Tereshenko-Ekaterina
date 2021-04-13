@@ -6,6 +6,7 @@
 @import url('../css/firstscreen.css');
 @import url('../css/footer.css');
 @import url('../css/social.css');
+@import url('../css/contact.css');
 
 * {
   list-style: none;
@@ -60,7 +61,8 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-input {
+input,
+textarea {
   outline: none;
   border: none;
   border-bottom: solid 1px #bdbdbd;
