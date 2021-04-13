@@ -43,6 +43,7 @@
   font-size: 15px;
   line-height: 42px;
   cursor: pointer;
+  transition-duration: 0.5s;
 }
 .button:hover {
   background-color: #ec7979;

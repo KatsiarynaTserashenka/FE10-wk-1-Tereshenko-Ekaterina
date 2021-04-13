@@ -3,17 +3,24 @@
   width: 100%;
   background-color: #000000;
 }
+.footer__row {
+  align-items: center;
+  justify-content: center;
+}
 .row__list {
   display: flex;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .row__list-item_link {
   list-style: none;
   font-size: 23px;
-  align-items: center;
   color: #ffffff;
   margin: 0px 15px;
   display: inline-block;
+  transition-duration: 1s;
 }
 .row__list-item_link:hover {
   cursor: pointer;
