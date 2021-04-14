@@ -11,6 +11,7 @@
 }
 .price__row {
   margin: 63px -15px 0px -15px;
+  flex-wrap: wrap;
 }
 .price-card {
   width: 340px;

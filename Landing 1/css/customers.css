@@ -10,6 +10,7 @@
 }
 .customers__row {
   margin: 67px -15px 0px -15px;
+  flex-wrap: wrap;
 }
 .customers-card {
   width: 298px;

@@ -19,6 +19,7 @@
 .firstscreen__row {
   margin: 0px -15px;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .firstscreen__info,
 .firstscreen__form {

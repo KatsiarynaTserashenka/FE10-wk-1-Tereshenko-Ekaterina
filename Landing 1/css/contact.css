@@ -15,32 +15,49 @@
 .contact__row {
   margin: 0px -15px;
   margin-top: 91px;
+  flex-wrap: nowrap;
 }
 .contact-card {
   margin-left: 15px;
   margin-right: 15px;
-  max-width: 540px;
+  width: 478px;
 }
 .contact-form__item {
   display: flex;
   flex-direction: column;
 }
-.contact-form__label {
+.contact-form__item:nth-child(2) {
   margin-top: 32px;
 }
-.contact-form__item_name {
-  height: 32px;
-  max-width: 540px;
+.contact-form__item:nth-child(3) {
+  margin-top: 32px;
 }
-.contact-form__item_email {
+.contact-form__input {
   height: 32px;
-  max-width: 540px;
 }
-.contact-form__item_password {
+
+.contact-form__input_password {
   height: 46px;
-  max-width: 540px;
 }
 .contact-form__item_message {
-  height: 216px;
-  max-width: 540px;
+  height: 212px;
+}
+.contact__form-button {
+  display: block;
+  margin: 68.8px auto 0px;
+  padding: 11px 31px;
+  width: 166px;
+  background-color: #ec7979;
+  border: 1px solid #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+.contact__form-button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  cursor: pointer;
 }

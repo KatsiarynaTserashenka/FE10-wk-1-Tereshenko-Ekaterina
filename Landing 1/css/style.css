@@ -59,11 +59,14 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 input,
 textarea {
   outline: none;
   border: none;
   border-bottom: solid 1px #bdbdbd;
+}
+textarea {
+  resize: none;
+  background-color: transparent;
 }

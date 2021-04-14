@@ -8,6 +8,7 @@
 .header__row {
   align-items: center;
   margin: 0px -15px;
+  flex-wrap: wrap;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
