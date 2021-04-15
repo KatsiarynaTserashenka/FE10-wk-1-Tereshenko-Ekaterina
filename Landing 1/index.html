@@ -48,12 +48,12 @@
       <div class="container firstscreen-container">
         <div class="row firstscreen__row">
           <div class="firstscreen__info">
-            <h1 class="main-title firstscreen__main-title">
+            <div class="logo first-screen__logo">
               AX<span class="color">IT</span>
-            </h1>
-            <h2 class="title firstscreen__title">
+            </div>
+            <h1 class="main-title firstscreen__main-title">
               Modern axure template for beautiful prototypes
-            </h2>
+            </h1>
             <div class="firstscreen__text">
               <p class="text firstscreen__text-content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean
@@ -62,40 +62,38 @@
             <a src="#" class="button firstscreen__button">Download</a>
           </div>
 
-          <div class="firstscreen__form">
+          <form id="firstscreen__form" action="#">
             <div class="form-content">
               <h3 class="form-content__subtitle">
                 Try Your <span class="color">free</span> Trial Today
               </h3>
-              <form action="#" id="form-content__items">
-                <div class="form-content__item name">
-                  <label for="username" class="label form-content__label"
-                    >Name</label
-                  >
-                  <input type="text" id="username" name="username" required />
-                </div>
-                <div class="form-content__item email">
-                  <label for="email" class="label form-content__label"
-                    >Email</label
-                  >
-                  <input type="email" id="email" required />
-                </div>
-                <div class="form-content__item password">
-                  <label for="password" class="label form-content__label"
-                    >Password</label
-                  >
-                  <input type="password" id="password" required />
-                </div>
-              </form>
+              <div class="form-content__item name">
+                <label for="username" class="label form-content__label"
+                  >Name</label
+                >
+                <input type="text" id="name" name="username" required />
+              </div>
+              <div class="form-content__item email">
+                <label for="email" class="label form-content__label"
+                  >Email</label
+                >
+                <input type="email" id="email" required />
+              </div>
+              <div class="form-content__item password">
+                <label for="password" class="label form-content__label"
+                  >Password</label
+                >
+                <input type="password" id="password" required />
+              </div>
             </div>
             <button
               type="submit"
-              form="form-content__items"
+              form="firstscreen__form"
               class="firstscreen__form-button"
             >
               Get Started
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </section>
@@ -431,7 +429,7 @@
             </div>
           </div>
         </form>
-        <button form="contact-form" class="contact__form-button">
+        <button type="submit" form="contact-form" class="contact__form-button">
           Send Message
         </button>
       </div>
