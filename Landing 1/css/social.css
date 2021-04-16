@@ -6,7 +6,7 @@
 .social__row {
   align-items: center;
   margin: 0px -15px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .social__content {
   margin-left: 15px;
