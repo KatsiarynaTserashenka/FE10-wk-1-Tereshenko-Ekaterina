@@ -17,7 +17,7 @@
 }
 .social__content-item {
   color: #86878b;
-  text-align: left !important;
+  text-align: left;
   max-width: 365px;
 }
 .social__list {

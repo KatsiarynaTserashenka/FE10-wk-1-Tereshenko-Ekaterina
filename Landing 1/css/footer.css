@@ -53,6 +53,7 @@
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 18px;
+  text-align: center;
 }
 /*.footer__text-last::before {
   content: '\f1f9';

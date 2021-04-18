@@ -50,7 +50,6 @@ p {
   font-size: 14px;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
 }
 .text {
   color: #86878b;
@@ -70,4 +69,125 @@ textarea {
 textarea {
   resize: none;
   background-color: transparent;
+}
+/*---------- Adaptive ----------*/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .row {
+    justify-content: space-around;
+  }
+  .awesome-card {
+    margin-bottom: 30px;
+  }
+  .awesome-card:last-child {
+    margin-bottom: 0px;
+  }
+  .price-card {
+    margin-bottom: 30px;
+  }
+  .price-card:last-child {
+    margin-bottom: 0px;
+  }
+  .customers-card {
+    margin-bottom: 30px;
+  }
+  .customers-card:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .header__row {
+    justify-content: space-between;
+  }
+  .header-menu__item {
+    justify-content: space-around;
+  }
+  .firstscreen__row {
+    flex-wrap: wrap;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-title::after {
+    margin: auto;
+  }
+  .firstscreen__text-content {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .firstscreen__button {
+    margin: 0 auto;
+  }
+  #firstscreen__form {
+    margin-top: 30px;
+  }
+  .social__list {
+    justify-content: space-around;
+  }
+  .tabs__block {
+    max-width: 30%;
+  }
+  .tabs__description {
+    max-width: 60%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+  .firstscreen {
+    padding-top: 200px;
+  }
+  .social__row {
+    flex-wrap: wrap;
+  }
+  .social__content-item {
+    margin-bottom: 30px;
+  }
+  .tabs__image {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact__row {
+    flex-wrap: wrap;
+  }
+  .contact-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    max-width: 90%;
+  }
+  .firstscreen {
+    padding-top: 250px;
+  }
+  .tabs__block {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .tabs__button {
+    margin: 89px auto 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tabs__image-item {
+    width: 220px;
+    height: 153px;
+  }
+  .tabs__block {
+    max-width: 100%;
+  }
 }

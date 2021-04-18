@@ -46,7 +46,7 @@
 .tabs__description_subtitle {
   font-weight: 700;
   line-height: 27px;
-  text-align: left !important;
+  text-align: left;
   text-transform: uppercase;
   margin-bottom: 58px !important;
 }

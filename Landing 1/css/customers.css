@@ -40,6 +40,7 @@
 }
 .customers-card__text-comment {
   color: #86878b;
+  text-align: center;
 }
 .customers-card__customer {
   display: flex;
