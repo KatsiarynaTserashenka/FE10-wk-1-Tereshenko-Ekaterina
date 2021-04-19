@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
   width: 100%;
   background-color: #000000;
   position: fixed;
@@ -12,8 +12,8 @@
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
@@ -35,27 +35,27 @@
   list-style: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
   flex-wrap: wrap;
 }
 .header-menu__item-list {
-  margin-left: 42px;
+  margin-left: 2.625rem;
 }
 .header-menu__item-link {
   text-align: center;
   text-transform: capitalize;
   display: block;
   cursor: pointer;
-  border: 1px solid transparent;
-  padding: 0px 0px 5px 5px;
+  border: 0.0625rem solid transparent;
+  padding: 0rem 0rem 0.3125rem 0.3125rem;
 }
 .header-menu__item-list:first-child {
-  margin-left: 0px;
+  margin-left: 0rem;
 }
 .header-menu__item-link:hover {
-  border-left: 1px solid rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 0.0625rem solid rgba(255, 255, 255, 0.7);
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.7);
 }

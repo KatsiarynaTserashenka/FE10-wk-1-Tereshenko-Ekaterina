@@ -1,5 +1,5 @@
 .firstscreen {
-  padding: 180px 0px 100px 0px;
+  padding: 11.25rem 0rem 6.25rem 0rem;
   width: 100%;
   background: url('../img/bg/firstscreen-bg.png') no-repeat;
   background-position: center;
@@ -8,12 +8,12 @@
 }
 .first-screen__logo {
   font-family: 'Raleway', sans-serif;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 3.75rem;
+  line-height: 4.375rem;
   color: #ffffff;
   font-weight: 400;
   text-align: left;
-  margin: 0px 0px 32px;
+  margin: 0rem 0rem 2rem;
 }
 .firstscreen::after {
   content: '';
@@ -31,78 +31,78 @@
   flex-wrap: nowrap;
 }
 .firstscreen__info {
-  max-width: 540px;
+  max-width: 33.75rem;
   margin: 0px 15px;
 }
 .main-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
-  line-height: 42px;
-  margin-bottom: 85px;
+  line-height: 2.625rem;
+  margin-bottom: 5.3125rem;
 }
 .main-title::after {
   content: '';
   position: relative;
-  width: 64px;
-  height: 2px;
+  width: 4rem;
+  height: 0.125rem;
   display: block;
-  top: 45px;
+  top: 2.8125rem;
   background-color: #ffffff;
   margin: 0;
 }
 .firstscreen__text-content {
   text-align: left !important;
-  margin-bottom: 40px;
-  width: 250px;
+  margin-bottom: 2.5rem;
+  width: 15.625rem;
 }
 .firstscreen__button {
   margin: 0;
 }
 #firstscreen__form {
   margin: 0px 15px;
-  max-width: 370px;
+  max-width: 23.125rem;
 }
 .form-content {
   background-color: #ffffff;
-  padding: 18px 59px 61px;
-  border-radius: 8px 8px 0px 0px;
+  padding: 1.125rem 3.6875rem 3.8125rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 .form-content__subtitle {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #333333;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 42px;
+  margin-bottom: 2.625rem;
 }
 .form-content__item {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .form-content__item:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 .label {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #bdbdbd;
 }
 #name,
 #email,
 #password {
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
 }
 .firstscreen__form-button {
   width: 100%;
   background-color: #ec7979;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 54px;
+  font-size: 0.9375rem;
+  line-height: 3.6rem;
   text-align: center;
   color: #ffffff;
   border: none;
@@ -110,6 +110,6 @@
 .firstscreen__form-button:hover {
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid #fff;
-  font-size: 20px;
+  border: 0.0625rem solid #fff;
+  font-size: 1.25rem;
 }

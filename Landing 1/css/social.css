@@ -1,5 +1,5 @@
 .social {
-  padding: 15px 0px;
+  padding: 0.9375rem 0rem;
   width: 100%;
   background-color: #f8efef;
 }
@@ -18,7 +18,7 @@
 .social__content-item {
   color: #86878b;
   text-align: left;
-  max-width: 365px;
+  max-width: 22.8125rem;
 }
 .social__list {
   margin-left: 15px;
@@ -29,14 +29,14 @@
   flex-wrap: wrap;
 }
 .social__list-item {
-  margin-left: 65px;
+  margin-left: 4.0625rem;
 }
 .social__list-item:first-child {
-  margin-left: 0px;
+  margin-left: 0rem;
 }
 .social__list-item_link {
   list-style: none;
-  font-size: 42px;
+  font-size: 2.625rem;
   align-items: center;
   color: #bfc1c4;
   display: inline-block;

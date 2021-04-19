@@ -1,13 +1,13 @@
 .contact {
-  padding: 80px 0px 44px;
+  padding: 5rem 0rem 2.75rem;
   width: 100%;
   background-color: #fff;
 }
 .contact__title {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 .contact__title::after {
-  top: 34px;
+  top: 2.125rem;
 }
 .contact__text-description {
   color: #86878b;
@@ -15,7 +15,7 @@
 }
 .contact__row {
   margin: 0px -15px;
-  margin-top: 91px;
+  margin-top: 5.6875rem;
   flex-wrap: nowrap;
 }
 .contact-card {
@@ -27,34 +27,34 @@
 #contact-form__password,
 #contact-form__textarea {
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
 }
 .contact-form__item:nth-child(2) {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 .contact-form__item:nth-child(3) {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 .contact-form__input {
-  height: 32px;
+  height: 2rem;
 }
 
 .contact-form__input_password {
-  height: 46px;
+  height: 2.875rem;
 }
 .contact-form__item_message {
-  height: 212px;
+  height: 13.25rem;
 }
 .contact__form-button {
   display: block;
-  margin: 68.8px auto 0px;
-  padding: 11px 31px;
-  width: 166px;
+  margin: 4.3rem auto 0rem;
+  padding: 0.6875rem 1.9375rem;
+  width: 10.375rem;
   background-color: #ec7979;
-  border: 1px solid #ffffff;
+  border: 0.0625rem solid #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   color: #ffffff;
   transition-duration: 0.5s;

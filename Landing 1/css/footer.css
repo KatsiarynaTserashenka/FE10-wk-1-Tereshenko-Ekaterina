@@ -1,5 +1,5 @@
 .footer {
-  padding: 30px 0px 15px 0px;
+  padding: 1.875rem 0rem 0.9375rem 0rem;
   width: 100%;
   background-color: #000000;
 }
@@ -16,7 +16,7 @@
 }
 .row__list-item_link {
   list-style: none;
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: #ffffff;
   margin: 0px 15px;
   display: inline-block;
@@ -49,10 +49,10 @@
   color: #d14809;
 }
 .footer__text-last {
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: rgba(255, 255, 255, 0.5);
-  margin-top: 18px;
+  margin-top: 1.125rem;
   text-align: center;
 }
 /*.footer__text-last::before {
