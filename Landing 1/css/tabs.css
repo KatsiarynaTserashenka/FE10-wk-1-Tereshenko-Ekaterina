@@ -11,10 +11,10 @@
   flex-direction: column;
   align-items: space-between;
   margin: 0px 15px;
-  max-width: 10%;
+  max-width: 20%;
 }
-.tabs__block-item {
-  padding: 2.8125rem 2.125rem;
+.tabs__block-btn {
+  padding: 2.8125rem 0rem;
   width: 7rem;
   height: 6.875rem;
   background: #333333;
@@ -23,32 +23,41 @@
   color: #fff;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  display: block;
+  text-align: center;
+  border: none;
 }
-.tabs__block-item:hover {
+.tabs__block-btn:hover {
   background: #ec7979;
   cursor: pointer;
 }
-.tabs__block-item:last-child {
+.tabs__block-btn:active {
+  background: #ec7979;
+}
+.tabs__block-btn:last-child {
   margin-bottom: 0rem;
 }
 .tabs__description {
-  margin: 0px 15px;
+  margin: 0px 15px 0px 80px;
   max-width: 50%;
 }
 .tabs__image {
   margin: 0px 15px;
-  max-width: 30%;
+  max-width: 20%;
 }
 .tabs__image-item {
   width: 20rem;
   height: 15.8125rem;
 }
 .tabs__description_subtitle {
+  font-size: 1.25rem;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   line-height: 1.6875rem;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 3.625rem !important;
+  margin-bottom: 3.625rem;
 }
 .tabs__description_text {
   margin-bottom: 1.25rem;

@@ -13,7 +13,11 @@
   margin-right: 15px;
 }
 .social-subtitle {
-  text-align: left !important;
+  font-size: 1.25rem;
+  color: #333333;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
 }
 .social__content-item {
   color: #86878b;

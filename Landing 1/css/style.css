@@ -81,6 +81,11 @@ textarea {
   .row {
     justify-content: space-around;
   }
+  .tabs__image {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1.875rem;
+  }
   .awesome-card {
     margin-bottom: 1.875rem;
   }
@@ -114,6 +119,9 @@ textarea {
   .firstscreen__row {
     flex-wrap: wrap;
   }
+  .first-screen__logo {
+    text-align: center;
+  }
   .main-title {
     text-align: center;
   }
@@ -126,19 +134,39 @@ textarea {
   }
   .firstscreen__button {
     margin: 0 auto;
+    width: 60%;
   }
   #firstscreen__form {
     margin-top: 1.875rem;
   }
+  .social__row {
+    flex-wrap: wrap;
+  }
+  .social-subtitle {
+    text-align: center;
+  }
+  .social__content-item {
+    margin: 0rem 0rem 1.875rem;
+    text-align: center;
+  }
   .social__list {
     justify-content: space-around;
+    width: 100%;
+  }
+  .social__list-item {
+    margin: 0rem 0.9375rem;
+  }
+  .social__list-item:first-child {
+    margin-left: 0rem;
+  }
+  .social__list-item:last-child {
+    margin-right: 0rem;
   }
   .tabs__block {
     max-width: 30%;
   }
   .tabs__description {
     max-width: 60%;
-    margin-bottom: 1.875rem;
   }
 }
 
@@ -152,21 +180,45 @@ textarea {
   .firstscreen {
     padding-top: 12.5rem;
   }
-  .social__row {
-    flex-wrap: wrap;
-  }
-  .social__content-item {
-    margin-bottom: 1.875rem;
-  }
-  .tabs__image {
-    max-width: 100%;
-    text-align: center;
-  }
   .contact__row {
     flex-wrap: wrap;
   }
   .contact-card {
     width: 90%;
+  }
+  .contact-form__message {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 655px) {
+  .tabs__block {
+    flex-direction: row;
+    align-items: space-around;
+    max-width: 100%;
+  }
+  .tabs__block-btn {
+    margin: 0rem 0.9375rem 1.875rem;
+  }
+  .tabs__block-btn:first-child {
+    margin-left: 0rem;
+  }
+  .tabs__block-btn:last-child {
+    margin-right: 0rem;
+  }
+  .tabs__description {
+    margin: 0px 15px;
+    max-width: 70%;
+  }
+  .tabs__button {
+    margin: 1.875rem auto 0rem;
+    width: 80%;
+  }
+  .axure__button {
+    width: 60%;
+  }
+  .contact__form-button {
+    width: 60%;
   }
 }
 
@@ -186,25 +238,10 @@ textarea {
   .firstscreen {
     padding-top: 15.625rem;
   }
-  .tabs__block {
-    margin-bottom: 1.875rem;
-  }
-}
-
-@media (max-width: 500px) {
-  html {
-    font-size: 13px;
-  }
-  .tabs__button {
-    margin: 5.5625rem auto 0rem;
-  }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 12px;
-  }
-  .tabs__block {
-    max-width: 100%;
+    font-size: 13px;
   }
 }
