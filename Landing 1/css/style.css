@@ -192,6 +192,10 @@ textarea {
 }
 
 @media (max-width: 655px) {
+  .tabs {
+    padding: 7.875rem 0rem 0rem;
+    width: 100%;
+  }
   .tabs__block {
     flex-direction: row;
     align-items: space-around;
