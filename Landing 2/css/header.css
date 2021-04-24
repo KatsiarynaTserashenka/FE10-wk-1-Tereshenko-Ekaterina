@@ -1,5 +1,5 @@
 .header {
-  padding: 2.1875rem 0rem 0rem;
+  padding: 1.875rem 0rem 0rem;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -9,7 +9,7 @@
 }
 .header__row {
   align-items: center;
-  margin: 0rem -15px 2.1875rem;
+  margin: 0rem -15px 1.875rem;
   flex-wrap: wrap;
 }
 
@@ -42,10 +42,16 @@
 
 .header-menu__item-link {
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   display: block;
   cursor: pointer;
   color: #ffffff;
+  border: 0.0625rem solid transparent;
+  padding: 0.3125rem;
+}
+
+.header-menu__item-link:hover {
+  border-bottom: 0.0625rem solid #ffffff;
 }
 
 .header-menu__item-list:first-child {
