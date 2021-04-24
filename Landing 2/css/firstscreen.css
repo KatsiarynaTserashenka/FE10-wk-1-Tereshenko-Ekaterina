@@ -1,0 +1,22 @@
+.firstscreen {
+  padding: 15.625rem 0rem 9.6875rem;
+  width: 100%;
+  margin: 0px -15px;
+}
+.firstscreen__main-title {
+  font-size: 4.0625rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  max-width: 60.625rem;
+  text-transform: uppercase;
+  font-family: 'Open sans', sans-serif;
+  margin-bottom: 2.8125rem;
+}
+.firstscreen__text-content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.375rem;
+  color: #ffffff;
+  text-align: center;
+  max-width: 60.625rem;
+}
