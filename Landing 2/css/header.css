@@ -1,8 +1,6 @@
 .header {
   padding: 1.875rem 0rem 0rem;
   width: 100%;
-  position: fixed;
-  z-index: 999;
 }
 .header-container {
   border-bottom: 0.0625rem solid #6c7279;
