@@ -1,5 +1,6 @@
 @import url('../css/header.css');
 @import url('../css/firstscreen.css');
+@import url('../css/features.css');
 
 html {
   font-size: 16px;
@@ -23,6 +24,8 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .viewport {
   background: url('../img/bg/viewport-bg.jpg') no-repeat;
