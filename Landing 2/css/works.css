@@ -1,0 +1,13 @@
+.works-container {
+  max-width: 100vw;
+}
+.works__row-top,
+.works__row-bottom {
+  margin: auto;
+}
+.works-container__img {
+  max-width: 29.375rem;
+}
+.works-container__img-item {
+  display: block;
+}

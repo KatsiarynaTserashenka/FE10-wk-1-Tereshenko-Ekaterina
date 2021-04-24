@@ -1,14 +1,12 @@
 .header {
-  padding: 1.875rem 0rem 0rem;
   width: 100%;
-}
-.header-container {
-  border-bottom: 0.0625rem solid #6c7279;
 }
 .header__row {
   align-items: center;
-  margin: 0rem -15px 1.875rem;
+  margin: 0rem -15px;
+  padding: 1.875rem 0rem;
   flex-wrap: wrap;
+  border-bottom: 0.0625rem solid #6c7279;
 }
 
 .logo {
@@ -26,7 +24,6 @@
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 0.8175rem;
   align-items: center;

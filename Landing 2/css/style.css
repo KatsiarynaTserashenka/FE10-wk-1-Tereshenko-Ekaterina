@@ -1,9 +1,15 @@
 @import url('../css/header.css');
 @import url('../css/firstscreen.css');
 @import url('../css/features.css');
+@import url('../css/works.css');
 
 html {
   font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #6c7279;
 }
 
 * {
