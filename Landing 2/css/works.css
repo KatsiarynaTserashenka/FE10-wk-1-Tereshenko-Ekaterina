@@ -13,6 +13,7 @@
 .works-container__img:hover .works__hover {
   opacity: 1;
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .works-container__img-item {
