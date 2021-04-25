@@ -39,14 +39,23 @@
 }
 .team-card__icon-item {
   display: block;
-  color: #c5c9cb;
   font-size: 1.375rem;
   border: 0.125rem solid #c5c9cb;
   line-height: 2.5rem;
   width: 2.5rem;
   text-align: center;
   margin-right: 0.3125rem;
+  transition-duration: 0.5s;
 }
 .team-card__icon-item:last-child {
   margin-right: 0rem;
+}
+.team-card__icon-item:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  background-color: #e84545;
+}
+.team-card__icon-item_link {
+  list-style: none;
+  color: #c5c9cb;
 }
