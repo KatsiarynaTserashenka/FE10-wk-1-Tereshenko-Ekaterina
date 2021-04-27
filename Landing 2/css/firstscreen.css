@@ -20,6 +20,9 @@
   margin: 0rem auto 5rem;
 }
 .firstscreen__button {
-  max-width: 12.5rem;
-  line-height: 2.8125rem;
+  width: 12.5rem;
+}
+.firstscreen__button:hover {
+  background-color: transparent;
+  border: 0.0625rem solid #ffffff;
 }
