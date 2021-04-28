@@ -34,6 +34,7 @@
 .footer__icon-item {
   border: 0.1875rem solid #ffffff;
   margin-right: 0.625rem;
+  line-height: 2.25rem;
 }
 .footer__icon-item_link {
   color: #ffffff;
