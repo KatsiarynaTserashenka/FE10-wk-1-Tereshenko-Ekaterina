@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+}
+.header__row {
+  align-items: center;
+  margin: 0rem -15px;
+  padding: 1.875rem 0rem;
+  flex-wrap: wrap;
+  border-bottom: 0.0625rem solid #6c7279;
+}

@@ -1,0 +1,78 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #6c7279;
+}
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.viewport {
+  background: url('../img/bg/viewport-bg.jpg') no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 45, 73, 0.9);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.button {
+  background-color: #e74545;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin: auto;
+  transition-duration: 0.5s;
+  border-radius: 0.1875rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 2.8125rem;
+  &:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+}
+
+@import 'header.scss';
+@import 'firstscreen.scss';
+@import 'features.scss';
+@import 'works.scss';
+@import 'team.scss';
+@import 'download.scss';
+@import 'clients.scss';
+@import 'footer.scss';
