@@ -93,6 +93,13 @@ body {
   }
 }
 
+@media (max-width: 1135px) {
+  .slider .slick-dots {
+    top: 85%;
+    right: 25%;
+  }
+}
+
 @media (max-width: 992px) {
   .container {
     max-width: 750px;
@@ -115,6 +122,12 @@ body {
   }
   .team {
     padding-bottom: 0rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .slider .slick-dots {
+    right: 20%;
   }
 }
 
