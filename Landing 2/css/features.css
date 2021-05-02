@@ -1,13 +1,16 @@
 .features {
-  padding: 7.8125rem 0rem;
+  padding: 5.3125rem 0rem;
   width: 100%;
 }
-.features__row-top {
-  margin-bottom: 5rem;
+.features__row {
+  flex-wrap: wrap;
 }
+/*.features__row-top {
+  margin-bottom: 5rem;
+}*/
 .features-card {
-  margin: 0px 15px;
-  max-width: 17.8125rem;
+  margin: 40px 15px 0px;
+  max-width: 30%;
 }
 .features-card__img {
   margin-bottom: 2.5rem;
