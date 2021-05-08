@@ -74,6 +74,10 @@
       .slick-active button {
         opacity: 1;
       }
+      .slick-hover button {
+        border: 1px solid #fff;
+        cursor: pointer;
+      }
     }
     button {
       font-size: 0;
